@@ -15,8 +15,8 @@
 
 .container {
     position: relative; 
-    width: 1168px;
-    height: 628px;
+    width: 948px;
+    height: 500px;
     background-image: url('img/Group 156.png'); 
     background-size: cover;
     background-position: center;
@@ -30,7 +30,7 @@
     color: rgb(255, 255, 255); 
     padding-right: 20px; 
     padding-bottom: 20px; 
-    max-width: 40%;
+    max-width: 60%;
     margin-right: 30px;
 }
 
@@ -40,12 +40,12 @@
 }
 
 .text-content h2 {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 500;
 }
 
 .text-content p {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.8;
     font-weight: 300;
     margin-bottom: 30px;
@@ -64,25 +64,25 @@
     }
 
     .text-content {
-        position: relative; /* เปลี่ยนเป็น relative เพื่อให้อยู่ภายใน container */
-        max-width: 80%; /* ปรับความกว้างของข้อความให้เหมาะสม */
+        position: relative; 
+        max-width: 80%; 
         padding-right: 10px; 
         padding-bottom: 10px;
-        text-align: right; /* จัดข้อความให้อยู่ตรงกลางในแนวนอน */
+        text-align: right;
     }
 
     .text-content h1 {
-        font-size: 24px; /* ปรับขนาดฟอนต์ให้เหมาะกับแท็บเล็ต */
+        font-size: 24px; 
     }
 
     .text-content h2 {
-        font-size: 36px; /* ขนาดฟอนต์สำหรับหัวข้อที่ใหญ่ขึ้น */
+        font-size: 36px;
     }
 
     .text-content p {
         font-size: 16px;
-        width: 100%; /* ขยายข้อความให้เต็มความกว้างที่มี */
-        margin-left: 0; /* เอา margin-left ออกเพื่อให้ข้อความอยู่ตรงกลาง */
+        width: 100%; 
+        margin-left: 0; 
     }
 }
 
