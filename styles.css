@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Prompt", sans-serif;
+}
+
+.d-23{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    position: relative; 
+    width: 1168px;
+    height: 628px;
+    background-image: url('img/Group 156.png'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.text-content {
+    position: absolute; 
+    bottom: 0; 
+    right: 0;
+    text-align: right;
+    color: rgb(255, 255, 255); 
+    padding-right: 20px; 
+    padding-bottom: 20px; 
+    max-width: 40%;
+    margin-right: 30px;
+}
+
+.text-content h1 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.text-content h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.text-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        width: 100%;  
+        height: 450px; 
+        background-image: url('img/Group 156.png'); 
+        background-size: contain; 
+        background-repeat: no-repeat; 
+        background-position: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+
+    .text-content {
+        position: relative; /* เปลี่ยนเป็น relative เพื่อให้อยู่ภายใน container */
+        max-width: 80%; /* ปรับความกว้างของข้อความให้เหมาะสม */
+        padding-right: 10px; 
+        padding-bottom: 10px;
+        text-align: right; /* จัดข้อความให้อยู่ตรงกลางในแนวนอน */
+    }
+
+    .text-content h1 {
+        font-size: 24px; /* ปรับขนาดฟอนต์ให้เหมาะกับแท็บเล็ต */
+    }
+
+    .text-content h2 {
+        font-size: 36px; /* ขนาดฟอนต์สำหรับหัวข้อที่ใหญ่ขึ้น */
+    }
+
+    .text-content p {
+        font-size: 16px;
+        width: 100%; /* ขยายข้อความให้เต็มความกว้างที่มี */
+        margin-left: 0; /* เอา margin-left ออกเพื่อให้ข้อความอยู่ตรงกลาง */
+    }
+}
+
+
+
+@media (max-width: 767px) {
+    .container {
+        width: 374px;
+        height: 488.37px;
+        background-image: url('img/Group.png'); 
+        background-size: cover;
+        background-position: center;
+    }
+
+    .text-content {
+        max-width: 100%; 
+        padding-right: 10px; 
+        padding-bottom: 10px;
+    }
+
+    .text-content h1 {
+        font-size: 18px;
+    }
+
+    .text-content h2 {
+        font-size: 20px;
+    }
+
+    .text-content p {
+        font-size: 15px;
+        width: 60%;
+        margin-left: auto;
+    }
+    .text-content p br{
+        display: none;
+    }
+}
